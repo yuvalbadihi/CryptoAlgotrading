@@ -1,0 +1,23 @@
+ {
+  "CoinMarketCap": {
+    "coinmarketcap_token": "xxx"
+  },
+
+  "TelegramBot": {
+    "telegram_bot_token": "xxx"
+  },
+  "Binance": {
+    "yuvalbadihi": {
+      "Details": {
+        "api_key": "xxx",
+        "api_secret": "xxx"
+      },
+      "yuvalzohar": {
+        "Details": {
+          "api_key": "xxx",
+          "api_secret": "xxx"
+        }
+      }
+    }
+  }
+}

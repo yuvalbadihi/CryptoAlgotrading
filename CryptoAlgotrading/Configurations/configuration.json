@@ -1,0 +1,87 @@
+{
+  "TradeDetail": {
+    "update_step_size": 96,
+    "minutes": 15
+  },
+  "Paths": {
+    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
+    "logger_folder": "Logs\\",
+    "trade_wallet_logs_path": "TradeWalletsLogs\\",
+    "indicators_logs_path": "IndicatorsLogs\\",
+    "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
+
+    "ASSESSMENT_DB_PATH": "DB\\assessment",
+    "ASSESSMENT_DB_PATH_TEST": "DB\\testsDB\\assessment_test_",
+    "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv",
+    "COINS_DB_PATH": "DB\\coins.csv",
+    "FIREBASE_CREDENTIALS": "Firebase/CryptoAlgotradingCredentials.json"
+  },
+  "Enablers": {
+    "TELEGRAM_BOT": "False",
+    "TRADE_ON": "True"
+  },
+  "Logger": {
+    "wallet_log_format": "[%(asctime)s] [%(name)s] [%(funcName)s] [%(levelname)s]: %(message)s",
+    "wallet_log_filemode": "a",
+    "wallet_log_setting_level": "DEBUG"
+  },
+  "Coins": {
+    "BTC": {
+      "Mode": "ON"
+    },
+    "BURGER": {
+      "Mode": "OFF"
+    },
+    "LTC": {
+      "Mode": "ON"
+    },
+    "DOGE": {
+      "Mode": "OFF"
+    }
+  },
+  "Indicators": {
+    "MAIndicator": {
+      "MODULE_PATH": "MAIndicator",
+      "DURATION": 1,
+      "MODE": "ON",
+      "TYPE": "FamousIndicators"
+    },
+    "MACDIndicator": {
+      "MODULE_PATH": "MACDIndicator",
+      "DURATION": 60,
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
+    },
+    "BBIndicator": {
+      "MODULE_PATH": "BBIndicator",
+      "DURATION": 60,
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
+    },
+    "RSIIndicator": {
+      "MODULE_PATH": "RSIIndicator",
+      "DURATION": 60,
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
+    },
+    "EMAIndicator": {
+      "MODULE_PATH": "EMAIndicator",
+      "DURATION": 60,
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
+    },
+    "CWMAIndicator": {
+      "MODULE_PATH": "CWMAIndicator",
+      "DURATION": 60,
+      "MODE": "ON",
+      "TYPE": "CustomIndicators"
+    }
+  },
+  "IndicatorsData": {
+    "indicators_attributes_data": {
+      "max_attributes_val": 150
+    }
+  },
+  "SAFE_TIME_OFFSET": 5,
+  "ABORT_COIN": "USDT"
+}
